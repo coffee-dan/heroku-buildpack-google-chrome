@@ -183,7 +183,7 @@ else
 fi
 EOF
 chmod +x $BIN_DIR/$SHIM
-cp $BIN_DIR/$SHIM $BIN_DIR/google-chrome
+cp $BIN_DIR/$SHIM $BIN_DIR/chrome
 
 # export the chrome binary location, so it's easier to tell chromedriver
 # about the non-standard location
